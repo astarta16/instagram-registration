@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Registration Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="main-container">
+      <div class="form-container">
+        <h1 class="logo">Instagram</h1>
+        <p class="description">
+          Sign up to see photos and videos from your friends.
+        </p>
+        <button class="fb-login">Log in with Facebook</button>
+        <div class="divider">
+          <span></span>
+          <p>OR</p>
+          <span></span>
+        </div>
+        <form>
+          <input type=" text" placeholder="Mobile Number or Email" required />
+          <input type="password" placeholder="Password" required />
+          <input type="text" placeholder="Full Name" required />
+          <input type="text" placeholder="Username" required />
+          <p class="info-text">
+            People who use our service may have uploaded your contact
+            information to Instagram.
+            <a href="#">Learn More</a>
+          </p>
+          <p class="terms">
+            By signing up, you agree to our <a href="#">Terms</a>,
+            <a href="#">Privacy Policy</a>, and <a href="#">Cookies Policy</a>.
+          </p>
+          <button type="submit" class="signup-btn">Sign up</button>
+        </form>
+      </div>
+      <div class="footer">
         <div class="form-container">
-            <h1 class="logo">Instagram</h1>
-            <p class="description">Sign up to see photos and videos from your friends.</p>
-            <button class="fb-login">Log in with Facebook</button>
-            <div class="divider">
-                <span></span>
-                <p>OR</p>
-                <span></span>
-            </div>
-            <form>
-                <input type=" text" placeholder="Mobile Number or Email" required>
-                <input type="password" placeholder="Password" required>
-                <input type="text" placeholder="Full Name" required>
-                <input type="text" placeholder="Username" required>
-                <p class="info-text">
-                    People who use our service may have uploaded your contact information to Instagram.
-                    <a href="#">Learn More</a>
-                </p>
-                <p class="terms">
-                    By signing up, you agree to our <a href="#">Terms</a>,
-                    <a href="#">Privacy Policy</a>, and <a href="#">Cookies Policy</a>.
-                </p>
-                <button type="submit" class="signup-btn">Sign up</button>
-            </form>
+          <p>Have an account? <a href="#">Log in</a></p>
         </div>
-        <div class="footer">
-            <div class="form-container">
-                <p>Have an account? <a href="#">Log in</a></p>
-            </div>
-            <p>Get the app.</p>
-            <div class="app-buttons">
-                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
-                    alt="App Store">
-                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
-                    alt="Google Play">
-            </div>
+        <p>Get the app.</p>
+        <div class="app-buttons">
+          <img
+            src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
+            alt="App Store" />
+          <img
+            src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png"
+            alt="Google Play" />
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
